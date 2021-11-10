@@ -138,4 +138,10 @@ footer {
   .contentTextBlock div {
     font-size: 13.5vw;
   }
+  .footerRight p {
+    font-weight: 600;
+  }
+  .headerRight p {
+    font-weight: 600;
+  }
 }
