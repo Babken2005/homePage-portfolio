@@ -46,11 +46,12 @@ footer {
   font-size: 1rem;
 }
 .homeContent {
-  min-height: calc(100vh - 95px);
+  min-height: 100vh;
 }
 .homeContentParent {
+  display: grid;
   width: 100%;
-  margin-top: 45px;
+  min-height: calc(75vh);
 }
 .contentTextBlock div {
   font-weight: bold;
@@ -105,9 +106,6 @@ footer {
 .textParent {
   overflow: hidden;
 }
-.contentTextBlock {
-  margin: 50px;
-}
 @media (max-width: 720px) {
   header {
     top: 11px;
@@ -140,7 +138,7 @@ footer {
     margin-right: 18px;
   }
   .contentTextBlock div {
-    /* font-size: 13.5vw; */
+    font-size: 10vw;
   }
   .footerRight p {
     font-weight: 600;
