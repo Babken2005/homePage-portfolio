@@ -136,7 +136,7 @@ footer {
     margin-right: 18px;
   }
   .contentTextBlock div {
-    font-size: 13.5vw;
+    /* font-size: 13.5vw; */
   }
   .footerRight p {
     font-weight: 600;
