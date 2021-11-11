@@ -45,10 +45,11 @@ footer {
   font-weight: bold;
   font-size: 1rem;
 }
-.homeContentParent {
-  display: grid;
-  width: 100%;
+.homeContent {
   min-height: calc(100vh - 95px);
+}
+.homeContentParent {
+  width: 100%;
   margin-top: 45px;
 }
 .contentTextBlock div {
@@ -103,6 +104,9 @@ footer {
 }
 .textParent {
   overflow: hidden;
+}
+.contentTextBlock {
+  margin: 50px;
 }
 @media (max-width: 720px) {
   header {
